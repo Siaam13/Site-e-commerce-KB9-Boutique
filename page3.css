@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Raleway:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  block-size: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+}
+
+#header {
+  background-color: rgba(212, 213, 221, 0.993);
+  color: rgba(255, 255, 255, 0.5);
+  cursor: default;
+  width: 100%;
+  min-height: 7vh;
+  inset-inline-start: 0;
+  line-height: 3.25rem;
+  position: sticky;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  inset-block-start: 0;
+  inline-size: 100%;
+  z-index: 9991;
+  margin-inline-start: 0px;
+}
+
+.ENTIER {
+  display: flex;
+  flex: 3 1 500px;
+}
+
+.logo {
+  font-family: "Passion One", cursive;
+  font-size: 180%;
+  font-weight: 400;
+  color: red;
+}
+
+.logo1 {
+  inline-size: 55px;
+  block-size: 50px;
+}
+
+.BOUTIQUE {
+  font-family: "Passion One", cursive;
+  font-size: 180%;
+  font-weight: 400;
+  color: rgb(20, 8, 124);
+  text-decoration: none;
+}
+
+.HPA {
+  display: flex;
+  flex: 3 1 350px;
+  justify-content: space-around;
+}
+
+.HOME {
+  font-family: "Passion One", cursive;
+  font-size: 180%;
+  font-weight: 300;
+  color: rgb(20, 8, 124);
+  text-decoration: none;
+}
+
+.PANIER {
+  font-family: "Passion One", cursive;
+  font-size: 180%;
+  font-weight: 400;
+  color: rgb(20, 8, 124);
+  text-decoration: none;
+}
+
+.ACTU {
+  font-family: "Passion One", cursive;
+  font-size: 180%;
+  font-weight: 400;
+  color: rgb(20, 8, 124);
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+@media (max-width: 920px) {
+  .ENTIER {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .HPA {
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+/* page3 */
+section.live {
+  margin: 7rem auto 7rem;
+  width: 100%;
+  min-height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section.live h1 {
+  text-align: center;
+  color: rgb(0, 0, 99);
+  margin-bottom: 4.5rem;
+  font-size: 5vw;
+  font-style: italic;
+  font-family: "Passion One", cursive;
+}
+
+section.live div.videocontainer {
+  width: 100%;
+  height: 80vh;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 255, 0.3),
+    rgba(255, 255, 255, 0.3),
+    rgba(255, 255, 255, 0.3),
+    rgba(255, 255, 255, 0.3),
+    rgba(255, 255, 255, 0.3),
+    rgba(255, 0, 0, 0.3)
+  );
+  position: relative;
+}
+
+section.live div.videocontainer div.colorcontainer {
+  width: 100%;
+  height: 80vh;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 255, 0.3),
+    rgba(255, 255, 255, 0.3),
+    rgba(255, 255, 255, 0.3),
+    rgba(255, 255, 255, 0.3),
+    rgba(255, 255, 255, 0.3),
+    rgba(255, 0, 0, 0.3)
+  );
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+section.live div.videocontainer video.video-bg {
+  max-width: 100%;
+  max-height: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+section.live div.clockspace {
+  display: flex;
+  margin-top: 1.5rem;
+}
+
+section.live div.clockspace2 {
+  display: flex;
+}
+
+section.live div.clockspace div.box1,
+div.box2,
+div.box3,
+div.box4,
+div.box5 {
+  font-size: 2.5rem;
+  text-align: center;
+  color: rgb(0, 0, 99);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+}
+
+section.live div.clockspace2 div.box6,
+div.box7,
+div.box8,
+div.box9,
+div.box10 {
+  text-align: center;
+  color: red;
+  font-size: 2rem;
+  font-style: italic;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+}
+@media (max-width: 1000px) {
+  section.live h1 {
+    text-align: center;
+    color: rgb(0, 0, 99);
+    margin-bottom: 8rem;
+    font-size: 9vw;
+    font-style: italic;
+  }
+}
+
+.red {
+  color: red;
+  font-family: 'Passion One', cursive;
+  font-size: 22px;
+}
+
+.boutique {
+  font-family: 'Passion One', cursive;
+  font-size: 22px;
+}
+
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(229, 229, 229);
+  padding: 1rem 1rem;
+  /* font-weight: 900; */
+  line-height: 1rem;
+  color: rgb(0, 0, 99);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+
+footer p.letterspacing {
+  letter-spacing: 0.1rem;
+}
+
+footer div a.middlemargin {
+  margin: 0 0.5rem;
+}

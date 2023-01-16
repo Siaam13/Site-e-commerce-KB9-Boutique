@@ -1,0 +1,511 @@
+@import url("https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Raleway:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  min-height: 270vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+}
+
+header {
+  background-color: rgba(212, 213, 221, 0.993);
+  color: rgba(255, 255, 255, 0.5);
+  cursor: default;
+  width: 100%;
+  min-height: 7vh;
+  inset-inline-start: 0;
+  line-height: 3.25rem;
+  position: sticky;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  inset-block-start: 0;
+  inline-size: 100%;
+  z-index: 9991;
+  margin-inline-start: 0px;
+}
+
+header div.PANNIER a.menu img {
+  inline-size: 100%;
+  block-size: 6vw;
+}
+
+.carousel-item {
+  display: flex;
+  float: inline-start;
+  inline-size: 100%;
+  block-size: 35%;
+
+  margin-inline-end: -100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transition: transform 0.6s ease-in-out;
+}
+
+.carousel-item img {
+  block-size: 100%;
+}
+
+p {
+  color: rgb(0, 0, 99);
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+
+p1 {
+
+    display: contents;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.menu {
+  display: flex;
+  z-index: 999999;
+}
+
+.logo {
+  font-family: "Passion One", cursive;
+  font-size: 180%;
+  font-weight: 400;
+  color: red;
+}
+
+.BOUTIQUE {
+  font-family: "Passion One", cursive;
+  font-size: 180%;
+  font-weight: 400;
+  color: rgb(20, 8, 124);
+
+  text-decoration: none;
+}
+
+.HOME {
+  font-family: "Passion One", cursive;
+  font-size: 180%;
+  font-weight: 300;
+  color: rgb(20, 8, 124);
+
+  text-decoration: none;
+}
+
+.PANIER {
+  font-family: "Passion One", cursive;
+  font-size: 180%;
+  font-weight: 400;
+  color: rgb(20, 8, 124);
+
+  text-decoration: none;
+}
+
+.ACTU {
+  font-family: "Passion One", cursive;
+  font-size: 180%;
+  font-weight: 400;
+  color: rgb(20, 8, 124);
+
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.logo1 {
+  inline-size: 55px;
+  block-size: 50px;
+}
+
+p2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 95%;
+  font-weight: 700;
+  color: black;
+  display: flex;
+  text-transform: uppercase;
+}
+
+.KARO {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 3rem auto 0;
+}
+
+.tortue {
+  flex: 1 1 450px;
+  margin-right: 3rem;
+}
+
+.info {
+  flex: 1 1 450px;
+  /* margin-left: 3rem; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+@media (max-width: 1050px) {
+  .info {
+    margin-top: 2rem;
+  }
+  .KARO {
+    display: flex;
+    flex-wrap: wrap;
+    width: 65%;
+    margin: 2rem auto 0;
+  }
+
+  .RES {
+    margin: 2rem 0;
+  }
+  .FFF {
+    font-size: 80%;
+  }
+  .PRIX {
+    font-size: 45%;
+  }
+}
+
+@media (max-width: 900px) {
+  .FFF {
+    font-size: 60%;
+  }
+
+  .info {
+    flex: 1 1 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 750px) {
+  .AJOUTEZ {
+    align-self: center;
+    margin-top: 2rem;
+  }
+}
+
+/* .dessus {
+    
+    margin-block-start: 12%;
+    margin-inline-start: 8%;
+    inline-size: 25%;
+
+  
+} */
+
+/* .FFF  {
+    
+    margin-block-start: 13%;
+    margin-inline-start: -25%;
+  
+} */
+
+p3 {
+  font-family: "Raleway", sans-serif;
+  font-size: 250%;
+  font-weight: 800;
+  color: rgb(20, 8, 124);
+  display: flex;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+p4 {
+  font-family: "Raleway", sans-serif;
+  font-size: 95%;
+  font-weight: 600;
+  color: rgb(20, 8, 124);
+  display: flex;
+  text-transform: uppercase;
+}
+
+/* .RES {
+    margin-block-start: 19%;
+    margin-inline-start: -43%;
+} */
+
+p5 {
+  font-family: "Raleway", sans-serif;
+  font-size: 250%;
+  font-weight: 800;
+  color: rgb(20, 8, 124);
+  display: flex;
+  text-transform: uppercase;
+}
+
+.PRIX {
+  /* margin-block-start: 32%;
+    margin-inline-start: -30%; */
+  /* vertical-align:super; */
+}
+
+.AJOUTEZ {
+  /* margin-block-start: 40%;
+    margin-inline-start: 12%; */
+  align-self: flex-end;
+  background-color: rgb(255, 50, 50);
+  border: none;
+  font-size: 0.8rem;
+  border-radius: 4px;
+  padding: 0.5rem 1.5rem;
+  font-family: "Passion One", cursive;
+  color: white;
+}
+
+.ENTIER {
+  display: flex;
+  flex: 3 1 500px;
+  /* align-items: center; */
+}
+
+.HPA {
+  display: flex;
+  flex: 3 1 350px;
+  justify-content: space-around;
+}
+
+.rating {
+  inline-size: 200px;
+  font-size: 45px;
+  overflow:hidden;
+  margin-top: 0.5rem;
+}
+.rating a {
+  float: inline-end;
+  color: rgba(170, 170, 170, 0.596);
+  text-decoration: none;
+  -webkit-transition: color .4s;
+  -moz-transition: color .4s;
+  -o-transition: color .4s;
+  transition: color .4s;
+}
+.rating a:hover,
+.rating a:hover ~ a,
+.rating a:focus,
+.rating a:focus ~ a		{
+  color: rgb(20, 8, 124);
+  cursor: pointer;
+}
+.rating2 {
+  direction: rtl;
+}
+.rating2 a {
+  float:none
+}
+
+@media (max-width: 920px) {
+  .ENTIER {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .HPA {
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+
+@media (max-width: 750px) {
+  header div.PANNIER a.menu img {
+    block-size: 12vw;
+  }
+}
+
+/* panierjs */
+section.petitpanier {
+  margin-top: 4.5rem;
+}
+
+div.todo {
+  margin: 2rem auto;
+  width: 75%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* border: 2px red solid; */
+  transition: all 0.3s ease;
+  border-radius: 20px;
+  padding: 2rem 0;
+  background-color: rgba(239, 239, 239, 0.993);
+}
+
+div.content {
+  /* border: 3px green solid; */
+  text-align: center;
+}
+
+h3.title {
+  margin: 0.5rem;
+  padding-top: 0.1rem;
+  font-family: "Passion One", cursive;
+  color: rgb(20, 8, 124);
+}
+
+p.price {
+  /* border: 5px blue solid; */
+  margin: 0rem;
+  padding-bottom: 0.1rem;
+}
+
+input.ammountcontent {
+  text-align: center;
+  width: 7vw;
+  font-size: 1.75rem;
+  border: none;
+  font-family: "Passion One", cursive;
+  color: rgb(20, 8, 124);
+  background-color: rgba(239, 239, 239, 0.993);
+  border-radius: 18px;
+}
+div.image img {
+  width: 18vw;
+  height: 18vw;
+}
+
+button.complete {
+  padding: 1rem;
+  font-size: 1.75rem;
+  border: none;
+  cursor: pointer;
+  background-color: rgba(239, 239, 239, 0.993);
+  border-radius: 25px;
+}
+
+button.trash {
+  padding: 1rem;
+  font-size: 1.75rem;
+  border: none;
+  cursor: pointer;
+  background-color: rgba(239, 239, 239, 0.993);
+  border-radius: 25px;
+}
+
+div.done {
+  background: rgba(0, 0, 0, 0.8);
+  text-decoration: line-through;
+  font-weight: 600;
+}
+
+i {
+  pointer-events: none;
+}
+
+@keyframes scaleUp {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+@keyframes scaleDown {
+  to {
+    transform: scale(0);
+  }
+}
+
+@media (max-width: 850px) {
+  div.todo {
+    margin: 2rem auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 2px red solid; */
+    transition: all 0.3s ease;
+    border-radius: 20px;
+    padding: 2rem 0;
+    background-color: rgba(239, 239, 239, 0.993);
+  }
+}
+
+/* panierjs2 */
+section.panierlogo {
+  /* border: 3px green solid; */
+  width: 10%;
+  height: 5%;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  left: 0;
+  top: 80vh;
+  bottom: 30vh;
+  z-index: 100000000;
+  background-color: rgba(239, 239, 239, 0.993);
+  border-radius: 0 20PX 20PX 0;
+}
+
+
+
+
+
+div.logoo {
+  /* border: 1px red solid; */
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img.imglogo {
+  width: 100%;
+}
+div.total {
+  /* border: 2px blue solid; */
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+p.letter {
+  margin-bottom: 0;
+  font-size: 2rem;
+}
+
+@media (max-width: 650px) {
+  img.imglogo {
+    width: 10vw;
+    height: 12vw;
+  }
+  
+}
+
+/* footer */
+.red {
+  color: rgb(255, 57, 57);
+  font-family: "Passion One", cursive;
+  font-size: 22px;
+}
+
+.boutique {
+  font-family: "Passion One", cursive;
+  font-size: 22px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(229, 229, 229);
+  padding: 1rem 1rem;
+  font-weight: 900;
+  line-height: 0.5rem;
+  color: rgb(0, 0, 99);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  inline-size: 100%;
+}
+
+footer p.letterspacing {
+  letter-spacing: 0.1rem;
+}
+
+footer div a.middlemargin {
+  margin: 0 0.5rem;
+  text-decoration: none;
+  color: rgb(0, 0, 99);
+}

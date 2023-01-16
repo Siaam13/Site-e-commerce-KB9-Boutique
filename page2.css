@@ -1,0 +1,425 @@
+@import url("https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Raleway:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  block-size: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+}
+
+#header {
+  background-color: rgba(212, 213, 221, 0.993);
+  color: rgba(255, 255, 255, 0.5);
+  cursor: default;
+  width: 100%;
+  min-height: 7vh;
+  inset-inline-start: 0;
+  line-height: 3.25rem;
+  position: sticky;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  inset-block-start: 0;
+  inline-size: 100%;
+  z-index: 9991;
+  margin-inline-start: 0px;
+}
+
+.ENTIER {
+  display: flex;
+  flex: 3 1 500px;
+}
+
+.logo {
+  font-family: "Passion One", cursive;
+  font-size: 180%;
+  font-weight: 400;
+  color: red;
+}
+
+.logo1 {
+  inline-size: 55px;
+  block-size: 50px;
+}
+
+.BOUTIQUE {
+  font-family: "Passion One", cursive;
+  font-size: 180%;
+  font-weight: 400;
+  color: rgb(20, 8, 124);
+  text-decoration: none;
+}
+
+.HPA {
+  display: flex;
+  flex: 3 1 350px;
+  justify-content: space-around;
+}
+
+.HOME {
+  font-family: "Passion One", cursive;
+  font-size: 180%;
+  font-weight: 300;
+  color: rgb(20, 8, 124);
+  text-decoration: none;
+}
+
+.PANIER {
+  font-family: "Passion One", cursive;
+  font-size: 180%;
+  font-weight: 400;
+  color: rgb(20, 8, 124);
+  text-decoration: none;
+}
+
+.ACTU {
+  font-family: "Passion One", cursive;
+  font-size: 180%;
+  font-weight: 400;
+  color: rgb(20, 8, 124);
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+@media (max-width: 920px) {
+  .ENTIER {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .HPA {
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+
+/* page2 */
+.weight900 {
+  font-weight: 1000;
+}
+input,
+fieldset {
+  border: none;
+}
+
+section.information {
+  width: 75%;
+  margin: 0 auto;
+}
+
+section.information h1 {
+  text-align: center;
+  color: rgb(0, 0, 99);
+  margin: 8rem 0rem 4.5rem;
+  font-size: 3.5vw;
+  font-style: italic;
+}
+
+section.information div.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  min-height: 100%;
+}
+
+section.information div.container div.clothesimage {
+  flex: 1 1 450px;
+  text-align: center;
+}
+
+section.information div.container form {
+  flex: 1 1 450px;
+  padding: 0 0 0 1rem;
+}
+
+/* section.information div.container div.clothesimage img {
+  width: 36.5vw;
+  height: 36.5vw;
+} */
+
+section.information div.container form fieldset.detail {
+  display: flex;
+  flex-direction: column;
+  height: 36.5vw;
+  justify-content: space-around;
+  font-weight: 900;
+}
+
+section.information div.container form fieldset.detail div.wholename {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section.information
+  div.container
+  form
+  fieldset.detail
+  div.wholename
+  label.prénom {
+  flex: 1 1 200px;
+}
+
+section.information div.container form fieldset.detail div.wholename label.nom {
+  flex: 1 1 200px;
+}
+
+section.information
+  div.container
+  form
+  fieldset.detail
+  div.wholename
+  label
+  input {
+  width: 40%;
+}
+@media (max-width: 1200px) {
+  section.information div.container div.clothesimage {
+    margin-bottom: 2rem;
+  }
+}
+@media (max-width: 650px) {
+  section.information h1 {
+    text-align: center;
+    color: rgb(0, 0, 99);
+    margin: 8rem 0rem 8rem;
+    font-size: 9vw;
+    font-style: italic;
+  }
+  section.information div.container form fieldset.detail {
+    width: 85vw;
+    margin: 2rem auto;
+  }
+  section.information
+    div.container
+    form
+    fieldset.detail
+    div.wholename
+    label.prénom {
+    flex: 1 1 300px;
+    margin-bottom: 1rem 0;
+  }
+
+  section.information
+    div.container
+    form
+    fieldset.detail
+    div.wholename
+    label.nom {
+    flex: 1 1 300px;
+    margin: 2rem 0;
+  }
+
+  section.information div.container form fieldset.detail label.marginboth {
+    margin: 2rem 0;
+  }
+
+  
+
+  section.information div.container form fieldset.detail figure.marginbottom {
+    padding: 2rem 0 2rem;
+  }
+
+  section.information div.container div.clothesimage {
+    margin-bottom: 2rem 0;
+    min-height: 60vh;
+  }
+  section.information div.container div.clothesimage img {
+    width: 80vw;
+    height: 80vw;
+  }
+}
+
+@media (max-width: 380px) {
+  section.information div.container div.clothesimage img {
+    width: 100vw;
+    height: 100vw;
+  }
+  
+}
+
+section.toPay {
+  font-style: italic;
+  margin: 5rem auto 10rem;
+  width: 60%;
+}
+
+section.toPay div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+section.toPay div p {
+  margin-bottom: 0.4rem;
+  font-size: 16px;
+  color: rgb(165, 165, 165);
+}
+
+section.toPay div a {
+  text-decoration: none;
+  color: white;
+  background-color: red;
+  border-radius: 7px;
+  font-weight: 900;
+  font-size: 1rem;
+  padding: 1rem 5.5rem;
+}
+
+/* panierjs */
+section.petitpanier {
+  margin-top: 4.5rem;
+}
+
+div.todo {
+  margin: 2rem auto;
+  width: 75%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* border: 2px red solid; */
+  transition: all 0.3s ease;
+  border-radius: 20px;
+  padding: 2rem 0;
+  background-color: rgba(239, 239, 239, 0.993);
+}
+
+div.content {
+  /* border: 3px green solid; */
+  text-align: center;
+}
+
+h3.title {
+  margin: 0.5rem;
+  padding-top: 0.1rem;
+  font-family: "Passion One", cursive;
+  color: rgb(20, 8, 124);
+}
+
+p.price {
+  /* border: 5px blue solid; */
+  margin: 0rem;
+  padding-bottom: 0.1rem;
+  font-family: "Passion One", cursive;
+  background-color: rgba(239, 239, 239, 0.993);
+  color: rgb(0, 0, 0);
+}
+
+input.ammountcontent {
+  text-align: center;
+  width: 7vw;
+  font-size: 1.75rem;
+  border: none;
+  font-family: "Passion One", cursive;
+  color: rgb(20, 8, 124);
+  background-color: rgba(239, 239, 239, 0.993);
+  border-radius: 18px;
+}
+div.image img {
+  width: 18vw;
+  height: 18vw;
+}
+
+button.complete {
+  padding: 1rem;
+  font-size: 1.75rem;
+  border: none;
+  cursor: pointer;
+  background-color: rgba(239, 239, 239, 0.993);
+  border-radius: 25px;
+}
+
+button.trash {
+  padding: 1rem;
+  font-size: 1.75rem;
+  border: none;
+  cursor: pointer;
+  background-color: rgba(239, 239, 239, 0.993);
+  border-radius: 25px;
+}
+
+div.done {
+  background: rgba(0, 0, 0, 0.8);
+  text-decoration: line-through;
+  font-weight: 600;
+}
+
+i {
+  pointer-events: none;
+}
+
+@keyframes scaleUp {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+@keyframes scaleDown {
+  to {
+    transform: scale(0);
+  }
+}
+
+@media (max-width: 850px) {
+  div.todo {
+    margin: 2rem auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 2px red solid; */
+    transition: all 0.3s ease;
+    border-radius: 20px;
+    padding: 2rem 0;
+    background-color: rgba(239, 239, 239, 0.993);
+  }
+}
+
+/* page3 */
+.red {
+  color: red;
+  font-family: 'Passion One', cursive;
+  font-size: 22px;
+}
+
+.boutique {
+  font-family: 'Passion One', cursive;
+  font-size: 22px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(229, 229, 229);
+  padding: 1rem 1rem;
+  /* font-weight: 900; */
+  line-height: 1rem;
+  color: rgb(0, 0, 99);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+footer p.letterspacing {
+  letter-spacing: 0.1rem;
+}
+
+footer div a.middlemargin {
+  margin: 0 0.5rem;
+}
+
